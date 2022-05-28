@@ -11,15 +11,17 @@ export default function Filter() {
 
   return (
     <>
-      <p className={styles.filter__title}>Find contacts by name</p>
-      <input
-        className={styles.filter__field}
-        type="text"
-        name="name"
-        value={filterVal}
-        placeholder="Enter the name..."
-        onChange={handleChange}
-      />
+      <div className={styles.filter}>
+        <p className={styles.filter__title}>Find contacts by name</p>
+        <input
+          className={styles.filter__field}
+          type="text"
+          name="name"
+          value={filterVal}
+          placeholder="Enter the name..."
+          onChange={handleChange}
+        />
+      </div>
     </>
   );
 }

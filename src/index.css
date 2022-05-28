@@ -1,5 +1,5 @@
 @import-normalize; /* bring in normalize.css styles */
-*{
+* {
   box-sizing: border-box;
 }
 body {
@@ -16,19 +16,9 @@ code {
     monospace;
 }
 
-.code__title {
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #010101;
-}
-
 .phonebook__container {
   padding: 30px;
-  width: 400px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -38,9 +28,16 @@ h2 {
 }
 
 .phonebook__title {
-    font-size: 28px;
+  color: rgb(98, 248, 248);
+  font-size: 28px;
 }
-
+.phonebook__title:hover {
+  color: rgb(2, 233, 233);
+}
 .contacts__title {
+  color: rgb(98, 248, 248);
   font-size: 26px;
+}
+.contacts__title:hover {
+  color: rgb(2, 233, 233);
 }
