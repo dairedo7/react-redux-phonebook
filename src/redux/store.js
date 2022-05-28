@@ -22,7 +22,6 @@ import filterReducer from './filter/filter-reducer';
 const contactsPersistConfig = {
   key: 'contacts',
   storage,
-  whitelist: ['items'],
 };
 
 const middleware = [
